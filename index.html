@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Valentine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <audio id="yesSound" src="https://assets.mixkit.co/sfx/preview/mixkit-video-game-win-2016.mp3"></audio>
+  <audio id="noSound" src="https://assets.mixkit.co/sfx/preview/mixkit-game-click-1114.mp3"></audio>
+
+  <div class="container">
+    <div class="card">
+      <div class="icon">💖</div>
+      <h1 id="mainText">Will you be my blah blah blah?</h1>
+      <p id="teaseText" class="hidden"></p>
+      <div class="buttons" id="buttons">
+        <button class="yes-btn" id="yesBtn">Yes</button>
+        <button class="no-btn" id="noBtn">No</button>
+      </div>
+      <div class="celebration hidden" id="celebration"></div>
+    </div>
+  </div>
+
+  <div id="confetti"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
